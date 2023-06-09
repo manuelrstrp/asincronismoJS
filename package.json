@@ -11,7 +11,9 @@
   ],
   "author": "Manuel Restrepo <manuel-restrepo@hotmail.com>",
   "license": "MIT",
+  "type": "module",
   "dependencies": {
+    "node-fetch": "^3.3.1",
     "xmlhttprequest": "^1.8.0"
   }
 }
