@@ -6,7 +6,7 @@ function postData(urlApi, data){
     method: 'POST',
     mode: 'cors',
     credentials: 'same-origin',
-    header:{
+    headers:{
       'Content-Type': 'application/json'
     },
     body: JSON.stringify(data)
